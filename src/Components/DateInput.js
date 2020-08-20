@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 class DateInput extends Component {
-  // Add a constructor with state
   constructor(props) {
     super(props);
     this.state = {
@@ -9,7 +8,6 @@ class DateInput extends Component {
     }
   };
 
-  // The event will be passed in automatically.
   handleChange = (event) => {
     this.setState({"text": event.target.value});
   }

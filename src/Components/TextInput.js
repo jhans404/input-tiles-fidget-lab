@@ -8,7 +8,6 @@ class TextInput extends Component {
     }
   };
 
-  // The event will be passed in automatically.
   handleChange = (event) => {
     this.setState({"text": event.target.value});
   }
